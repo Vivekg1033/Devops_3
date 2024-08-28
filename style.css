@@ -1,0 +1,37 @@
+body {
+    line-height: 1.6;
+}
+
+/* Style for product list */
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* ID Selector */
+#product1 {
+    background-color: #e7e7e7;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Class Selector */
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pseudo-class Selector */
+.product:hover {
+    border-color: #333;
+}
+
+/* Pseudo-element Selector */
+.product h3::before {
+    content: "★ ";
+    color: orange;
+}
